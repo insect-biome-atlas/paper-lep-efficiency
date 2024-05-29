@@ -1,0 +1,186 @@
+"cluster" "Kingdom" "Phylum" "Class" "Order" "Family" "Genus" "Species" "BOLD_bin" "updated_BIN_annotation" "updated_BIN_annotation_n_records" "updated_BIN_annotation_prop"
+"237" "Tortricidae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Syricoris" "Syricoris_X" "BOLAAC3531" "Celypha lacunana" 95 0.673758865248227
+"289" "Noctuidae_cluster3" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Oligia" "Oligia_X" "BOLAAB4833" "Oligia strigilis" 103 0.502439024390244
+"365" "Geometridae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Geometridae_X" "Geometridae_XX" "BOLABY9522" "Macaria brunneata" 43 0.826923076923077
+"421" "Geometridae_cluster7" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Thera" "Thera_X" "BOLAAB9686" "Thera cognata" 49 0.636363636363636
+"576" "Tortricidae_cluster14" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Olethreutes" "Olethreutes_X" "BOLAAB1043" "Olethreutes metallicana" 73 0.382198952879581
+"594" "Tortricidae_cluster15" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Exapate" "Exapate_X" "BOLAAE6707" "Exapate congelatella" 11 0.478260869565217
+"881" "Tortricidae_cluster23" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Epiblema" "Epiblema_X" "BOLAAE5499" "Notocelia roborana" 24 0.888888888888889
+"965" "Geometridae_cluster18" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Epirrita" "Epirrita_X" "BOLAAA5907" "Epirrita autumnata" 16 0.444444444444444
+"982" "Plutellidae_cluster2" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Plutellidae" "Ypsolophus" "Ypsolophus_X" "BOLAAD0001" "Ypsolopha ustella" 221 0.97787610619469
+"1010" "Geometridae_cluster19" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Macaria" "Macaria_X" "BOLAAA4974" "Macaria loricaria" 242 1
+"1039" "Crambidae_cluster8" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Crambidae" "Scoparia" "Scoparia_X" "BOLAAB1555" "Scoparia ambigualis" 75 0.506756756756757
+"1137" "Noctuidae_cluster19" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Mesapamea" "Mesapamea_X" "BOLAAB2749" "Mesapamea secalis" 106 0.420634920634921
+"1170" "Erebidae_cluster5" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Erebidae" "Eilema" "Eilema_X" "BOLAAB6834" "Eilema depressa" 46 0.48936170212766
+"1202" "Noctuidae_cluster21" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Noctuidae_X" "Noctuidae_XX" "BOLAAB9497" "Charanyca ferruginea" 44 0.586666666666667
+"1232" "Noctuidae_cluster22" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Autographa" "Autographa_X" "BOLAAA3990" "Autographa pulchrina" 138 0.71875
+"1446" "Crambidae_cluster10" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Crambidae" "Crambidae_X" "Crambidae_XX" "BOLAAB6255" "Patania ruralis" 40 0.701754385964912
+"1494" "Oecophoridae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Oecophoridae" "Borkhausenia" "Borkhausenia_X" "BOLAAE9502" "Metalampra cinnamomea" 10 0.714285714285714
+"1520" "Gelechiidae_cluster12" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gelechiidae" "Neofaculta" "Neofaculta_X" "BOLAAC1362" "Unspecified*" 30 0.476190476190476
+"1557" "Incurvariidae_cluster1" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Incurvariidae" "Incurvaria" "Incurvaria_X" "BOLAAD7517" "Lampronia corticella" 24 0.727272727272727
+"1562" "Lasiocampidae_cluster1" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Lasiocampidae" "Phyllodesma" "Phyllodesma_X" "BOLACF2447" "Unspecified*" 41 0.561643835616438
+"1583" "Tortricidae_cluster45" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Pseudohermenias" "Pseudohermenias_X" "BOLAAD7589" "Pseudohermenias abietana" 17 0.85
+"1613" "Crambidae_cluster11" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Crambidae" "Crambus" "Crambus_X" "BOLAAA6137" "Crambus perlella" 32 0.463768115942029
+"1727" "Geometridae_cluster32" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Timandra" "Timandra_X" "BOLAAB0828" "Timandra comae" 76 0.633333333333333
+"1802" "Psychidae_cluster1" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Solenobia" "Solenobia_X" "BOLABX6397" "Dahlica triquetrella" 58 0.966666666666667
+"1965" "Tortricidae_cluster55" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Dichrorampha" "Dichrorampha_X" "BOLAAA8637" "Unspecified*" 35 0.309734513274336
+"2031" "Geometridae_cluster39" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Peribatodes" "Peribatodes_X" "BOLAAC2923" "Peribatodes secundaria" 30 0.612244897959184
+"2090" "Tortricidae_cluster57" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Olethreutes" "Olethreutes_X" "BOLACF5701" "Phiaris schulziana" 35 0.53030303030303
+"2192" "Tortricidae_cluster59" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Ancylis" "Ancylis_X" "BOLAAA7191" "Ancylis uncella" 37 0.755102040816326
+"2327" "Yponomeutidae_cluster3" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Yponomeutidae" "Swammerdamia" "Swammerdamia_X" "BOLAAB0225" "Swammerdamia caesiella" 15 1
+"2371" "Noctuidae_cluster41" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Amphipoea" "Amphipoea_X" "BOLAAB5368" "Amphipoea fucosa" 68 0.607142857142857
+"2380" "Incurvariidae_cluster2" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Incurvariidae" "Incurvaria" "Incurvaria_X" "BOLAAF4452" "Lampronia luzella" 12 0.923076923076923
+"2403" "Coleophoridae_cluster3" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAC6419" "Coleophora alticolella" 43 0.425742574257426
+"2436" "Nymphalidae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Nymphalidae" "Clossiana" "Clossiana_X" "BOLAAB1747" "Boloria euphrosyne" 121 0.991803278688525
+"2549" "Tortricidae_cluster63" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Pelochrista" "Pelochrista_X" "BOLAAE7175" "Unspecified*" 21 0.428571428571429
+"2550" "Tortricidae_cluster64" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Olethreutes" "Olethreutes_X" "BOLABZ7390" "Phiaris dissolutana" 9 0.9
+"2580" "Geometridae_cluster51" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Scopula" "Scopula_X" "BOLAAA5384" "Scopula frigidaria" 126 0.79746835443038
+"2647" "Nymphalidae_cluster5" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Nymphalidae" "Brenthis" "Brenthis_X" "BOLAAA9312" "Brenthis ino" 160 0.486322188449848
+"2784" "Tortricidae_cluster74" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Archips" "Archips_X" "BOLAAB9404" "Archips rosana" 46 0.48421052631579
+"2833" "Tortricidae_cluster76" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Gypsonoma" "Gypsonoma_X" "BOLAAB1285" "Unspecified*" 39 0.240740740740741
+"2840" "Tortricidae_cluster77" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Syricoris" "Syricoris_X" "BOLAAF2534" "Celypha rivulana" 16 0.695652173913043
+"2850" "Drepanidae_cluster1" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Drepanidae" "Watsonalla" "Watsonalla_X" "BOLAAE9886" "Watsonalla cultraria" 31 0.596153846153846
+"2915" "Lycaenidae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Lycaenidae" "Vacciniina" "Vacciniina_X" "BOLAAB5172" "Agriades optilete" 234 0.932270916334661
+"2950" "Geometridae_cluster59" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Xanthorhoe" "Xanthorhoe_X" "BOLAAB5059" "Unspecified*" 27 0.3
+"3003" "Gelechiidae_cluster24" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gelechiidae" "Teleiodes" "Teleiodes_X" "BOLAAE9855" "Teleiodes vulgella" 33 0.6875
+"3054" "Lypusidae_cluster3" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Lypusidae" "Diurnea" "Diurnea_X" "BOLAAD9970" "Diurnea lipsiella" 20 0.689655172413793
+"3091" "Tortricidae_cluster83" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Argyrotaenia" "Argyrotaenia_X" "BOLAAA2955" "Argyrotaenia velutinana" 172 0.462365591397849
+"3119" "Noctuidae_cluster56" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Xanthia" "Xanthia_X" "BOLAAC9311" "Xanthia icteritia" 31 0.563636363636364
+"3150" "Yponomeutidae_cluster5" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Yponomeutidae" "Yponomeuta" "Yponomeuta_X" "BOLAAA7740" "Unspecified*" 95 0.292307692307692
+"3215" "Crambidae_cluster19" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Crambidae" "Agriphila" "Agriphila_X" "BOLAAE6817" "Agriphila selasella" 12 0.705882352941177
+"3230" "Tortricidae_cluster84" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Cochylis" "Cochylis_X" "BOLAAC3780" "Neocochylis dubitana" 50 0.892857142857143
+"3386" "Tortricidae_cluster86" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Cnephasia" "Cnephasia_X" "BOLAAC7742" "Cnephasia longana" 32 0.438356164383562
+"3676" "Noctuidae_cluster65" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Papestra" "Papestra_X" "BOLAAA9849" "Papestra quadrata" 53 0.490740740740741
+"3695" "Tortricidae_cluster94" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Olethreutes" "Olethreutes_X" "BOLAAF7094" "Phiaris umbrosana" 6 1
+"3766" "Geometridae_cluster73" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Idaea" "Idaea_X" "BOLAAA9359" "Idaea deversaria" 32 0.864864864864865
+"3843" "Gracillariidae_cluster21" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gracillariidae" "Callisto" "Callisto_X" "BOLAAE0738" "Callisto coffeella" 32 0.581818181818182
+"4030" "Plutellidae_cluster3" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Plutellidae" "Ypsolophus" "Ypsolophus_X" "BOLAAE4530" "Ypsolopha sylvella" 23 0.958333333333333
+"4068" "Tortricidae_cluster104" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Rhyacionia" "Rhyacionia_X" "BOLAAF7906" "Rhyacionia duplana" 16 0.666666666666667
+"4100" "Coleophoridae_cluster12" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAE1262" "Coleophora thulea" 10 0.588235294117647
+"4333" "Tortricidae_cluster108" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Syricoris" "Syricoris_X" "BOLAAF3174" "Celypha tiedemanniana" 4 1
+"4354" "Gelechiidae_cluster42" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gelechiidae" "Teleiopsis" "Teleiopsis_X" "BOLACE6105" "Teleiopsis diffinis" 26 0.577777777777778
+"4539" "Incurvariidae_cluster5" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Incurvariidae" "Lampronia" "Lampronia_X" "BOLAAD1334" "Incurvaria oehlmanniella" 19 0.730769230769231
+"4704" "Psychidae_cluster5" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Psychidae_X" "Psychidae_XX" "BOLAAD1525" "Siederia rupicolella" 27 0.771428571428571
+"4707" "Tortricidae_cluster119" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Acleris" "Acleris_X" "BOLAAF7296" "Acleris abietana" 9 0.75
+"4785" "Pieridae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Pieridae" "Pieris" "Pieris_X" "BOLAAA2226" "Pieris napi" 347 0.462666666666667
+"4812" "Tortricidae_cluster124" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Ancylis" "Ancylis_X" "BOLAAB3492" "Ancylis subarcuana" 10 1
+"4886" "Elachistidae_cluster24" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Elachistidae" "Elachista" "Elachista_X" "BOLAAF0079" "Elachista serricornis" 5 0.384615384615385
+"5078" "Noctuidae_cluster75" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Noctuidae_X" "Noctuidae_XX" "BOLAAB8242" "Acronicta megacephala" 24 0.615384615384615
+"5216" "Lycaenidae_cluster7" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Lycaenidae" "Plebejus" "Plebejus_X" "BOLABX6143" "Polyommatus amandus" 93 0.958762886597938
+"5250" "Tortricidae_cluster129" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Aphelia" "Aphelia_X" "BOLACE6890" "" 0 0
+"5265" "Noctuidae_cluster78" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Conistra" "Conistra_X" "BOLAAB7880" "Conistra vaccinii" 83 0.43455497382199
+"5325" "Geometridae_cluster92" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Eupithecia" "Eupithecia_X" "BOLAAA8697" "Eupithecia albicapitata" 33 0.717391304347826
+"5357" "Hesperiidae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Hesperiidae" "Pyrgus" "Pyrgus_X" "BOLAAB6141" "Pyrgus malvoides" 125 0.573394495412844
+"5392" "Tortricidae_cluster131" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Pammene" "Pammene_X" "BOLAAB6551" "Pammene perstructana" 8 0.571428571428571
+"5397" "Nymphalidae_cluster12" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Nymphalidae" "Coenonympha" "Coenonympha_X" "BOLACF1425" "Coenonympha arcania" 67 0.817073170731707
+"5408" "Tortricidae_cluster132" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Lobesia" "Lobesia_X" "BOLAAE0344" "Lobesia abscisana" 9 0.642857142857143
+"5424" "Coleophoridae_cluster18" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAF3727" "Unspecified*" 13 0.65
+"5561" "Tortricidae_cluster135" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Pammene" "Pammene_X" "BOLAAB6550" "Pammene perstructana" 10 0.5
+"5587" "Oecophoridae_cluster12" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Oecophoridae" "Schiffermuelleria" "Schiffermuelleria_X" "BOLAAM9881" "Telechrysis tripuncta" 5 1
+"5637" "Psychidae_cluster6" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Solenobia" "Solenobia_X" "BOLAAD1523" "Dahlica lichenella" 554 0.892109500805153
+"5793" "Eriocraniidae_cluster1" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Eriocraniidae" "Eriocraniidae_X" "Eriocraniidae_XX" "BOLAAF3179" "Eriocrania unimaculella" 15 0.681818181818182
+"5805" "Autostichidae_cluster1" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Autostichidae" "Oegoconia" "Oegoconia_X" "BOLAAB8271" "Oegoconia deauratella" 38 0.716981132075472
+"6015" "Tortricidae_cluster143" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Eucosma" "Eucosma_X" "BOLAAB4295" "Eucosma hohenwartiana" 54 0.551020408163265
+"6142" "Geometridae_cluster102" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Boudinotiana" "Boudinotiana_X" "BOLAAD8337" "Boudinotiana notha" 18 0.529411764705882
+"6263" "Elachistidae_cluster32" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Elachistidae" "Elachista" "Elachista_X" "BOLAAK9162" "Leucoptera malifoliella" 10 0.909090909090909
+"6273" "Geometridae_cluster103" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Cyclophora" "Cyclophora_X" "BOLAAB4698" "Cyclophora punctaria" 59 0.641304347826087
+"6436" "Incurvariidae_cluster6" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Incurvariidae" "Incurvaria" "Incurvaria_X" "BOLAAF4456" "Lampronia flavimitrella" 9 0.9
+"6731" "Plutellidae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Plutellidae" "Ypsolophus" "Ypsolophus_X" "BOLAAF5823" "Ypsolopha asperella" 14 0.875
+"6812" "Psychidae_cluster7" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Solenobia" "Solenobia_X" "BOLAAI5841" "Dahlica charlottae" 60 0.9375
+"6858" "Eriocraniidae_cluster3" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Eriocraniidae" "Eriocrania" "Eriocrania_X" "BOLAAB3768" "Eriocrania semipurpurella" 22 0.44
+"6922" "Pyralidae_cluster5" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Pyralidae" "Ortholepis" "Ortholepis_X" "BOLAAC3584" "Ortholepis myricella" 8 0.333333333333333
+"7084" "Psychidae_cluster8" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Solenobia" "Solenobia_X" "BOLAAD1522" "Dahlica triquetrella" 27 1
+"7182" "Incurvariidae_cluster7" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Incurvariidae" "Lampronia" "Lampronia_X" "BOLAAD4280" "Incurvaria praelatella" 15 0.88235294117647
+"7229" "Noctuidae_cluster96" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Hoplodrina" "Hoplodrina_X" "BOLAAB0832" "Hoplodrina ambigua" 68 0.918918918918919
+"7278" "Lypusidae_cluster6" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Lypusidae" "Lypusidae_X" "Lypusidae_XX" "BOLAAE8293" "Agnoea elsae" 13 0.68421052631579
+"7280" "Noctuidae_cluster97" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Diarsia" "Diarsia_X" "BOLAAB0038" "Diarsia mendica" 11 0.366666666666667
+"7321" "Noctuidae_cluster98" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Enargia" "Enargia_X" "BOLAAA7455" "Enargia decolor" 201 0.57593123209169
+"7667" "Coleophoridae_cluster30" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAB3185" "Coleophora otidipennella" 17 0.80952380952381
+"7710" "Tortricidae_cluster166" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Olethreutes" "Olethreutes_X" "BOLAAJ2026" "Celypha siderana" 23 0.92
+"7783" "Sphingidae_cluster4" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Sphingidae" "Sphinx" "Sphinx_X" "BOLAAA8863" "Hyloicus pinastri" 44 0.647058823529412
+"7806" "Geometridae_cluster122" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Perizoma" "Perizoma_X" "BOLAAE3950" "Mesotype didymata" 24 0.857142857142857
+"7821" "Tineidae_cluster7" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tineidae" "Nemapogon" "Nemapogon_X" "BOLAAD6594" "Nemapogon koenigi" 12 0.5
+"8009" "Incurvariidae_cluster9" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Incurvariidae" "Incurvaria" "Incurvaria_X" "BOLAAE2484" "Lampronia capitella" 13 0.928571428571429
+"8020" "Pterophoridae_cluster12" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Pterophoridae" "Crombrugghia" "Crombrugghia_X" "BOLAAD7067" "Oxyptilus distans" 17 0.414634146341463
+"8041" "Psychidae_cluster9" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Bacotia" "Bacotia_X" "BOLAAI8072" "Bacotia claustrella" 12 0.75
+"8061" "Psychidae_cluster10" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Psychidae_X" "Psychidae_XX" "BOLAAI5840" "Dahlica listerella" 51 0.653846153846154
+"8221" "Geometridae_cluster123" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Perizoma" "Perizoma_X" "BOLAAE9770" "Martania taeniata" 25 0.961538461538462
+"8270" "Coleophoridae_cluster34" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAF3728" "Coleophora discordella" 12 0.666666666666667
+"8304" "Crambidae_cluster34" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Crambidae" "Ostrinia" "Ostrinia_X" "BOLAAA2654" "" 0 0
+"8516" "Tortricidae_cluster175" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Epiblema" "Epiblema_X" "BOLAAC0715" "Epiblema scutulana" 27 0.519230769230769
+"8563" "Geometridae_cluster124" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Pasiphila" "Pasiphila_X" "BOLACJ3304" "Unspecified*" 1 0.5
+"8600" "Noctuidae_cluster111" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Plusia" "Plusia_X" "BOLAAB2458" "Plusia festucae" 34 0.523076923076923
+"8624" "Psychidae_cluster12" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Psychidae_X" "Psychidae_XX" "BOLAAD0603" "Proutia norvegica" 7 1
+"8692" "Noctuidae_cluster113" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Coenophila" "Coenophila_X" "BOLAAD2661" "Unspecified*" 48 0.727272727272727
+"8884" "Geometridae_cluster125" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Xanthorhoe" "Xanthorhoe_X" "BOLAAA5318" "Xanthorhoe decoloraria" 102 0.593023255813954
+"8980" "Tortricidae_cluster180" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Acleris" "Acleris_X" "BOLAAB3525" "Acleris cf. emargana" 23 0.410714285714286
+"9001" "Tortricidae_cluster181" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Tortricidae_X" "Tortricidae_XX" "BOLAAF4644" "Argyroploce concretana" 3 0.5
+"9114" "Gelechiidae_cluster77" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gelechiidae" "Klimeschiopsis" "Klimeschiopsis_X" "BOLAAF3126" "Klimeschiopsis kiningerella" 16 1
+"9119" "Geometridae_cluster127" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Anticlea" "Anticlea_X" "BOLAAC3576" "Earophila badiata" 31 0.81578947368421
+"9264" "Tortricidae_cluster186" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Tortricidae_X" "Tortricidae_XX" "BOLAAA3058" "Unspecified*" 27 0.457627118644068
+"9505" "Incurvariidae_cluster10" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Incurvariidae" "Incurvaria" "Incurvaria_X" "BOLAAD5208" "Lampronia rupella" 21 0.777777777777778
+"9832" "Tischeriidae_cluster3" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tischeriidae" "Tischeria" "Tischeria_X" "BOLAAI0596" "Coptotriche heinemanni" 6 1
+"9869" "Tortricidae_cluster189" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Zeiraphera" "Zeiraphera_X" "BOLAAA7907" "Unspecified*" 136 0.363636363636364
+"10055" "Sphingidae_cluster5" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Sphingidae" "Hyles" "Hyles_X" "BOLACE4003" "Hyles gallii" 53 0.6625
+"10151" "Geometridae_cluster134" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Eulithis" "Eulithis_X" "BOLAAB5983" "Gandaritis pyraliata" 51 0.944444444444444
+"10452" "Pieridae_cluster6" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Pieridae" "Colias" "Colias_X" "BOLAAA4471" "Colias palaeno" 10 0.5
+"10582" "Sphingidae_cluster6" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Sphingidae" "Hemaris" "Hemaris_X" "BOLACE7540" "Hemaris tityus" 16 0.8
+"10891" "Geometridae_cluster142" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Perizoma" "Perizoma_X" "BOLAAC0743" "Perizoma hydrata" 32 0.524590163934426
+"11265" "Coleophoridae_cluster43" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAE9656" "Coleophora siccifolia" 6 0.31578947368421
+"11267" "Pyralidae_cluster12" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Pyralidae" "Myelois" "Myelois_X" "BOLAAJ0642" "Episcythrastis tetricella" 17 0.894736842105263
+"11290" "Noctuidae_cluster134" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Loscopia" "Loscopia_X" "BOLAAC0150" "Apamea scolopacina" 48 0.96
+"11495" "Noctuidae_cluster136" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Diarsia" "Diarsia_X" "BOLACT1321" "Diarsia florida" 4 0.571428571428571
+"11844" "Pieridae_cluster7" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Pieridae" "Colias" "Colias_X" "BOLAAA3447" "Colias palaeno" 132 0.153667054714785
+"12125" "Noctuidae_cluster140" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Hada" "Hada_X" "BOLAAC2435" "Hada plebeja" 51 0.645569620253165
+"12418" "Drepanidae_cluster5" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Drepanidae" "Drepanidae_X" "Drepanidae_XX" "BOLAAA6343" "Drepana bilineata" 69 0.711340206185567
+"12534" "Tortricidae_cluster205" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Hedya" "Hedya_X" "BOLAAE5951" "Argyroploce roseomaculana" 11 1
+"12705" "Gelechiidae_cluster93" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gelechiidae" "Caryocolum" "Caryocolum_X" "BOLAAH4687" "Caryocolum proximum" 39 0.696428571428571
+"14001" "Coleophoridae_cluster49" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAB8489" "Coleophora albidella" 32 0.4
+"14047" "Plutellidae_cluster6" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Plutellidae" "Ypsolophus" "Ypsolophus_X" "BOLAAD2598" "Ypsolopha sequella" 26 0.742857142857143
+"14111" "Noctuidae_cluster151" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Photedes" "Photedes_X" "BOLAAC7939" "Photedes minima" 26 0.619047619047619
+"14368" "Gelechiidae_cluster99" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gelechiidae" "Athrips" "Athrips_X" "BOLAAF5922" "Athrips tetrapunctella" 4 0.8
+"14662" "Tortricidae_cluster225" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Blastesthia" "Blastesthia_X" "BOLAAE7999" "Pseudococcyx turionella" 18 0.36
+"15128" "Tortricidae_cluster227" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Dichrorampha" "Dichrorampha_X" "BOLAAA8636" "Dichrorampha sedatana" 40 0.701754385964912
+"15744" "Tortricidae_cluster230" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Aethes" "Aethes_X" "BOLAAC2885" "Aethes cnicana" 44 0.656716417910448
+"15909" "Geometridae_cluster169" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Chloroclysta" "Chloroclysta_X" "BOLAAA9515" "Chloroclysta siterata" 68 0.552845528455285
+"15946" "Gelechiidae_cluster105" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gelechiidae" "Monochroa" "Monochroa_X" "BOLAAF9390" "Monochroa suffusella" 17 0.607142857142857
+"16038" "Tortricidae_cluster233" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Pammene" "Pammene_X" "BOLAAC8302" "Pammene fasciana" 20 0.444444444444444
+"16336" "Noctuidae_cluster158" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Acronicta" "Acronicta_X" "BOLAAF0427" "Acronicta tridens" 15 0.714285714285714
+"16554" "Tortricidae_cluster237" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Aethes" "Aethes_X" "BOLADD1651" "" 0 0
+"17172" "Gracillariidae_cluster68" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Gracillariidae" "Caloptilia" "Caloptilia_X" "BOLAAC7934" "Caloptilia semifascia" 36 0.580645161290323
+"17325" "Nepticulidae_cluster45" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Nepticulidae" "Stigmella" "Stigmella_X" "BOLAAC8507" "Stigmella saliciscluster2" 64 1
+"17662" "Nymphalidae_cluster23" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Nymphalidae" "Hipparchia" "Hipparchia_X" "BOLAAB0589" "Hipparchia semele" 128 0.486692015209125
+"17861" "Nepticulidae_cluster47" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Nepticulidae" "Ectoedemia" "Ectoedemia_X" "BOLAAB9664" "Ectoedemia arcuatella" 21 0.375
+"17958" "Eriocraniidae_cluster9" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Eriocraniidae" "Eriocrania" "Eriocrania_X" "BOLAAB3764" "Eriocrania semipurpurella" 88 0.709677419354839
+"18030" "Tortricidae_cluster244" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Acleris" "Acleris_X" "BOLAAB6465" "Acleris sp. 4" 7 0.466666666666667
+"18315" "Noctuidae_cluster165" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Leucania" "Leucania_X" "BOLAAA3150" "Leucania dia" 153 0.607142857142857
+"19733" "Saturniidae_cluster1" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Saturniidae" "Saturnia" "Saturnia_X" "BOLAAA8149" "Unspecified*" 95 0.633333333333333
+"19867" "Geometridae_cluster179" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Chlorissa" "Chlorissa_X" "BOLABY5630" "Chlorissa viridata" 20 0.48780487804878
+"20313" "Momphidae_cluster13" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Momphidae" "Mompha" "Mompha_X" "BOLAAB9188" "Mompha sp." 5 0.454545454545455
+"21300" "Tortricidae_cluster254" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Acleris" "Acleris_X" "BOLAAA6999" "Acleris emargana" 8 0.421052631578947
+"21669" "Coleophoridae_cluster59" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAB4768" "Coleophora laricella" 78 0.629032258064516
+"21987" "Psychidae_cluster13" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Solenobia" "Solenobia_X" "BOLADY2006" "" 0 0
+"22006" "Oecophoridae_cluster22" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Oecophoridae" "Schiffermuelleria" "Schiffermuelleria_X" "BOLAAM9881" "Telechrysis tripuncta" 5 1
+"22378" "Coleophoridae_cluster60" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Metriotes" "Metriotes_X" "BOLAAC4513" "Coleophora lutarea" 20 0.909090909090909
+"22464" "Heliozelidae_cluster6" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Heliozelidae" "Heliozela" "Heliozela_X" "BOLAAC8613" "Perittia herrichiella" 25 0.714285714285714
+"22921" "Nepticulidae_cluster59" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Nepticulidae" "Stigmella" "Stigmella_X" "BOLAAT9425" "Stigmella saliciscluster6" 4 1
+"23722" "Ypsolophidae_cluster14" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Ypsolophidae" "Ochsenheimeria" "Ochsenheimeria_X" "BOLADM5049" "Ochsenheimeria sp." 1 1
+"24083" "Oecophoridae_cluster23" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Oecophoridae" "Schiffermuelleria" "Schiffermuelleria_X" "BOLAAM9881" "Telechrysis tripuncta" 5 1
+"24098" "Nepticulidae_cluster65" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Nepticulidae" "Stigmella" "Stigmella_X" "BOLAAC8506" "Stigmella saliciscluster3" 36 0.947368421052632
+"24710" "Erebidae_cluster47" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Erebidae" "Erebidae_X" "Erebidae_XX" "BOLAAC0134" "Spilosoma lutea" 31 0.553571428571429
+"25053" "Oecophoridae_cluster24" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Oecophoridae" "Schiffermuelleria" "Schiffermuelleria_X" "BOLAAM9881" "Telechrysis tripuncta" 5 1
+"25710" "Tortricidae_cluster269" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Cydia" "Cydia_X" "BOLAAB7159" "Cydia succedana" 36 0.679245283018868
+"26540" "Tortricidae_cluster272" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Hedya" "Hedya_X" "BOLAAE5951" "Argyroploce roseomaculana" 11 1
+"26555" "Autostichidae_cluster2" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Autostichidae" "Oegoconia" "Oegoconia_X" "BOLAAB8271" "Oegoconia deauratella" 38 0.716981132075472
+"26568" "Oecophoridae_cluster25" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Oecophoridae" "Schiffermuelleria" "Schiffermuelleria_X" "BOLAAM9881" "Telechrysis tripuncta" 5 1
+"26802" "Lycaenidae_cluster12" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Lycaenidae" "Quercusia" "Quercusia_X" "BOLAAB8019" "Favonius quercus" 124 0.992
+"26903" "Tortricidae_cluster274" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Hedya" "Hedya_X" "BOLAAE5951" "Argyroploce roseomaculana" 11 1
+"27619" "Tortricidae_cluster277" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Rhyacionia" "Rhyacionia_X" "BOLAAF7906" "Rhyacionia duplana" 16 0.666666666666667
+"27716" "Psychidae_cluster15" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Psychidae" "Standfussia" "Standfussia_X" "BOLAAI0085" "Sterrhopterix standfussi" 16 0.941176470588235
+"30106" "Coleophoridae_cluster64" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Coleophoridae" "Coleophora" "Coleophora_X" "BOLAAB4768" "Coleophora laricella" 78 0.629032258064516
+"30487" "Cosmopterigidae_cluster9" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Cosmopterigidae" "Stagmatophora" "Stagmatophora_X" "BOLAAI0104" "Eteobalea anonymella" 8 1
+"31522" "Geometridae_cluster203" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Geometridae" "Geometridae_X" "Geometridae_XX" "BOLAAA9056" "Rheumaptera undulata" 54 0.658536585365854
+"32137" "Elachistidae_cluster75" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Elachistidae" "Elachista" "Elachista_X" "BOLAAK9162" "Leucoptera malifoliella" 10 0.909090909090909
+"32998" "Tortricidae_cluster293" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Eucosma" "Eucosma_X" "BOLAAB4295" "Eucosma hohenwartiana" 54 0.551020408163265
+"33136" "Tortricidae_cluster296" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Tortricidae" "Hedya" "Hedya_X" "BOLAAE5951" "Argyroploce roseomaculana" 11 1
+"33292" "Noctuidae_cluster192" "Animalia" "Arthropoda" "Insecta" "Lepidoptera" "Noctuidae" "Noctuidae_X" "Noctuidae_XX" "BOLAAB0758" "Melanchra pulverulenta" 61 0.586538461538462

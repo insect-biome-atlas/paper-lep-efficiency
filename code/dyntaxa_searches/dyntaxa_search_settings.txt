@@ -1,0 +1,11 @@
+URL: https://www.dyntaxa.se/Match/Settings/0
+Time request submitted: 2023-06-09, 10:24
+Time response saved: 2023-06-09, 10:39
+
+Settings (following boxes checked, otherwise default settings):
+Taxon-id
+Vetenskapligt namn
+Auktor
+Veternskapliga synonymer
+Svensk förekomst
+

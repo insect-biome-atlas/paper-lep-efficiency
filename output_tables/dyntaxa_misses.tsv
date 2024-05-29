@@ -1,0 +1,69 @@
+"IBA_species" "match_status" "taxon_id" "sci_name" "author" "synonyms" "SE_occurrence" "IBA_cluster" "IBA_resolved_species" "IBA_resolved_BOLD_bin" "updated_BIN_annotation" "updated_BIN_annotation_n_records" "updated_BIN_annotation_prop"
+"8" "Olethreutes glaciana" "NoMatch" NA "" "" "" "" "Tortricidae_cluster9" "Olethreutes glaciana" "BOLAAA6005" "Olethreutes glaciana" 324 0.861702127659574
+"43" "Thyraylia nana" "NoMatch" NA "" "" "" "" "Tortricidae_cluster49" "Thyraylia nana" "BOLABY5998" "Thyraylia nana" 24 0.857142857142857
+"121" "Acleris hippophaeana" "NoMatch" NA "" "" "" "" "Tortricidae_cluster148" "unresolved.Acleris" "unresolved.Acleris" "" 0 0
+"158" "Olethreutes heinrichana" "NoMatch" NA "" "" "" "" "Tortricidae_cluster192" "Olethreutes heinrichana" "BOLAAA8541" "Olethreutes heinrichana" 26 0.764705882352941
+"212" "Cochylichroa atricapitana" "NoMatch" NA "" "" "" "" "Tortricidae_cluster266" "Cochylichroa atricapitana" "BOLAAE1271" "Cochylichroa atricapitana" 4 0.8
+"222" "Crambus nemorella" "NoMatch" NA "" "" "" "" "Crambidae_cluster2" "Crambus nemorella" "BOLAAC1691" "Crambus lathoniellus" 33 0.733333333333333
+"225" "Agriphila tristellus" "NoMatch" NA "" "" "" "" "Crambidae_cluster6" "Agriphila tristellus" "BOLAAB9062" "Agriphila tristella" 34 0.666666666666667
+"227" "Catoptria margaritellus" "NoMatch" NA "" "" "" "" "Crambidae_cluster9" "Catoptria margaritellus" "BOLAAD3702" "Catoptria margaritella" 19 0.730769230769231
+"244" "Scoparia cembrella" "NoMatch" NA "" "" "" "" "Crambidae_cluster30" "Scoparia cembrella" "BOLAAB1557" "Scoparia subfusca" 31 0.911764705882353
+"253" "Platytes cerusella" "NoMatch" NA "" "" "" "" "Crambidae_cluster40" "Platytes cerusella" "BOLAAF4169" "Platytes cerussella" 19 0.826086956521739
+"274" "Eupithecia niphadophilata" "NoMatch" NA "" "" "" "" "Geometridae_cluster9" "Eupithecia pusillata" "BOLABZ6329" "Eupithecia pusillata" 62 0.984126984126984
+"387" "Euphyia intermediata" "NoMatch" NA "" "" "" "" "Geometridae_cluster140" "Euphyia intermediata" "BOLAAA4559" "Euphyia intermediata" 91 0.674074074074074
+"400" "Thera cembrae" "NoMatch" NA "" "" "" "" "Geometridae_cluster155" "Thera cembrae" "BOLAAA7521" "Thera obeliscata" 80 0.509554140127389
+"420" "Eupithecia groenblomi" "Exact" 6010376 "Eupithecia groenblomi" "Urbahn, 1969" "" "Ej påträffad" "Geometridae_cluster181" "Eupithecia groenblomi" "BOLAAL5402" "Eupithecia groenblomi" 4 1
+"422" "Ectropis excellens" "NoMatch" NA "" "" "" "" "Geometridae_cluster183" "Ectropis excellens" "BOLAEA3862" "Ectropis excellens" 20 1
+"425" "Agriopis budashkini" "NoMatch" NA "" "" "" "" "Geometridae_cluster186" "Agriopis budashkini" "BOLAAJ6603" "Agriopis budashkini" 2 0.666666666666667
+"479" "Xestia speciosa" "NeedsManualSelection" NA "Välj ett av 2 matchande taxa; Art: Xestia baltica (Valle, 1940), baltiskt skogsfly [216248]; Art: Xestia arctica (Zetterstedt, 1839), arktiskt fjällfly [6010454]" "" "" "" "Noctuidae_cluster35" "Xestia speciosa" "BOLACE4666" "Xestia speciosa" 33 0.970588235294118
+"488" "Xestia smithii" "NoMatch" NA "" "" "" "" "Noctuidae_cluster43" "Xestia smithii" "BOLAAA2590" "Xestia smithii" 330 0.827067669172932
+"500" "Hyppa contrasta" "NoMatch" NA "" "" "" "" "Noctuidae_cluster55" "unclassified.Hyppa" "unclassified.Hyppa" "" 0 0
+"506" "Lacanobia atlantica" "NoMatch" NA "" "" "" "" "Noctuidae_cluster60" "unresolved.Lacanobia" "unresolved.Lacanobia" "" 0 0
+"551" "Xestia rhomboidea" "NeedsManualSelection" NA "Välj ett av 2 matchande taxa; Art: Xestia stigmatica (Hübner, 1813), skuggjordfly [216264]; Art: Xestia triangulum (Hufnagel, 1766), gråhalsat jordfly [216261]" "" "" "" "Noctuidae_cluster114" "Xestia rhomboidea" "BOLAAF0752" "Xestia stigmatica" 23 0.766666666666667
+"586" "Xestia homogena" "NoMatch" NA "" "" "" "" "Noctuidae_cluster154" "Xestia homogena" "BOLAAA3385" "Xestia homogena" 125 0.886524822695035
+"688" "Oxypteryx atrella" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster32" "Oxypteryx atrella" "BOLAAD5702" "Oxypteryx atrella" 28 0.933333333333333
+"694" "Oxypteryx unicolorella" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster38" "Oxypteryx unicolorella" "BOLAAD1198" "Oxypteryx unicolorella" 40 0.975609756097561
+"709" "Apodia martinii" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster53" "Apodia martinii" "BOLAAF8160" "Apodia martinii" 8 1
+"710" "Aproaerema taeniolella" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster54" "Aproaerema taeniolella" "BOLAAE8756" "Aproaerema taeniolella" 46 1
+"717" "Aproaerema cinctella" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster61" "Aproaerema cinctella" "BOLAAD7223" "Aproaerema cinctella" 45 0.957446808510638
+"744" "Aproaerema karvoneni" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster92" "Aproaerema karvoneni" "BOLAAE8761" "Aproaerema karvoneni" 10 1
+"760" "Oxypteryx wilkella" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster112" "Oxypteryx wilkella" "BOLAAF7554" "Oxypteryx wilkella" 34 1
+"761" "Oxypteryx superbella" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster113" "Oxypteryx superbella" "BOLAAF7565" "Oxypteryx superbella" 8 1
+"767" "Monochroa palustrellus" "NoMatch" NA "" "" "" "" "Gelechiidae_cluster124" "Monochroa palustrellus" "BOLAAF2711" "Monochroa palustrellus" 5 0.833333333333333
+"772" "Vanessa atalanta" "Exact" 201060 "Vanessa atalanta" "(Linnaeus, 1758)" "Papilio atalanta Linnaeus, 1758; Pyrameis atalanta (Linnaeus, 1758)" "Tillfällig förekomst (alt. kvarstående)" "Nymphalidae_cluster6" "Vanessa atalanta" "BOLAAA8638" "Vanessa atalanta" 254 0.996078431372549
+"773" "Vanessa cardui" "Exact" 201061 "Vanessa cardui" "(Linnaeus, 1758)" "Papilio cardui Linnaeus, 1758; Vanessa cardui (Linnaeus, 1758); Cynthia cardui (Linnaeus, 1758)" "Ej bofast men tillfälligt reproducerande" "Nymphalidae_cluster7" "Vanessa cardui" "BOLAAA5337" "Vanessa cardui" 377 0.969151670951157
+"859" "Agonopterix rubidella" "NoMatch" NA "" "" "" "" "Elachistidae_cluster33" "Agonopterix rubidella" "BOLAEE8966" "" 0 0
+"899" "Acrolepia pygmaeana" "NoMatch" NA "" "" "" "" "Glyphipterigidae_cluster2" "Acrolepia pygmaeana" "BOLAAF6915" "Acrolepia autumnitella" 14 0.933333333333333
+"963" "Adela viridella" "NoMatch" NA "" "" "" "" "Adelidae_cluster1" "Adela viridella" "BOLAAJ5727" "Adela reaumurella" 15 0.714285714285714
+"970" "Nemophora scopolii" "NoMatch" NA "" "" "" "" "Adelidae_cluster7" "Nemophora degeerella" "BOLAAC1892" "Unspecified*" 17 0.515151515151515
+"976" "Nemophora bellella" "NoMatch" NA "" "" "" "" "Adelidae_cluster14" "Nemophora bellella" "BOLACE9215" "Nemophora bellela" 12 0.545454545454545
+"998" "Yponomeuta vigintipunctata" "NoMatch" NA "" "" "" "" "Yponomeutidae_cluster17" "Yponomeuta vigintipunctata" "BOLAAE4875" "Yponomeuta sedella" 18 0.72
+"1000" "Euhyponomeutoides rufella" "NoMatch" NA "" "" "" "" "Yponomeutidae_cluster19" "Euhyponomeutoides rufella" "BOLAAF7153" "Euhyponomeutoides albithoracellus" 36 0.972972972972973
+"1037" "Phyllonorycter lautella" "NeedsManualSelection" NA "Välj ett av 2 matchande taxa; Art: Phyllonorycter lautellus (Zeller, 1846), ekplantsguldmal [250449]; Art: Phyllonorycter lautella (Zeller, 1846), ekplantguldmal [214104]" "" "" "" "Gracillariidae_cluster38" "Phyllonorycter lautella" "BOLAAC7024" "Phyllonorycter lautella" 24 0.96
+"1056" "Phyllocnistis populiella" "NoMatch" NA "" "" "" "" "Gracillariidae_cluster58" "Phyllocnistis populiella" "BOLACX5473" "Phyllocnistis populiella" 2036 0.666448445171849
+"1059" "Phyllonorycter mespilella" "NoMatch" NA "" "" "" "" "Gracillariidae_cluster61" "Phyllonorycter mespilella" "BOLAAC1755" "Phyllonorycter mespilella" 44 0.916666666666667
+"1064" "Phyllonorycter klemannella" "NoMatch" NA "" "" "" "" "Gracillariidae_cluster67" "Phyllonorycter klemannella" "BOLAAH8487" "Phyllonorycter klemannella" 54 1
+"1076" "Phyllonorycter cerris" "NoMatch" NA "" "" "" "" "Gracillariidae_cluster84" "unresolved.Phyllonorycter" "unresolved.Phyllonorycter" "" 0 0
+"1105" "Dendrolimus superans" "Exact" 6011739 "Dendrolimus superans" "(Butler, 1877)" "Odonestis superans Butler, 1877" "Ej påträffad" "Lasiocampidae_cluster4" "Dendrolimus superans" "BOLAAB6845" "Dendrolimus superans" 78 0.443181818181818
+"1106" "Poecilocampa alpina" "NoMatch" NA "" "" "" "" "Lasiocampidae_cluster5" "Poecilocampa alpina" "BOLAAC8994" "Poecilocampa populi" 33 0.485294117647059
+"1108" "Trichiura crataegi" "NeedsManualSelection" NA "Välj ett av 2 matchande taxa; Art: Trichiura crataegi, hagtornspinnare [201173]; Art: Trichiura crataegi (Linnaeus, 1758), hagtornsspinnare [234276]" "" "" "" "Lasiocampidae_cluster7" "Trichiura crataegi" "BOLAAB4489" "Trichiura crataegi" 53 0.854838709677419
+"1111" "Taleporia politella" "NoMatch" NA "" "" "" "" "Psychidae_cluster3" "Taleporia politella" "BOLAAC2838" "Taleporia tubulosa" 46 0.807017543859649
+"1124" "Spindasis takanonis" "NoMatch" NA "" "" "" "" "Lycaenidae_cluster13" "Spindasis takanonis" "BOLABY4319" "Satyrium w-album" 53 0.929824561403509
+"1133" "Gillmeria ochrodactyla" "NeedsManualSelection" NA "Välj ett av 2 matchande taxa; Art: Gillmeria ochrodactyla (Denis & Schiffermüller, 1775) [215266]; Art: Gillmeria tetradactyla (Linnaeus, 1758), renfanefjädermott [249045]" "" "" "" "Pterophoridae_cluster9" "Gillmeria ochrodactyla" "BOLAAF5505" "Gillmeria ochrodactyla" 15 0.789473684210526
+"1151" "Mompha decorella" "NoMatch" NA "" "" "" "" "Momphidae_cluster5" "Mompha decorella" "BOLAAG0791" "Mompha divisella" 12 0.923076923076923
+"1211" "Fomoria weaveri" "NoMatch" NA "" "" "" "" "Nepticulidae_cluster1" "Fomoria weaveri" "BOLAAF6478" "Fomoria weaveri" 36 1
+"1215" "Stigmella nylandriella" "NeedsManualSelection" NA "Välj ett av 2 matchande taxa; Art: Stigmella nylandriella (Tengström, 1848), mörk rönndvärgmal [213819]; Art: Stigmella magdalenae (Klimesch, 1950), ljus rönndvärgmal [213818]" "" "" "" "Nepticulidae_cluster5" "Stigmella nylandriella" "BOLAAF3425" "Stigmella nylandriella" 12 0.923076923076923
+"1233" "Zimmermannia atrifrontella" "NoMatch" NA "" "" "" "" "Nepticulidae_cluster26" "Zimmermannia atrifrontella" "BOLABW6509" "Zimmermannia atrifrontella" 11 1
+"1250" "Fomoria septembrella" "NoMatch" NA "" "" "" "" "Nepticulidae_cluster46" "Fomoria septembrella" "BOLAAL9680" "Fomoria septembrella" 33 1
+"1259" "Zimmermannia amani" "NoMatch" NA "" "" "" "" "Nepticulidae_cluster57" "Zimmermannia amani" "BOLAAI9360" "Zimmermannia amani" 13 1
+"1268" "Etainia albibimaculella" "NoMatch" NA "" "" "" "" "Nepticulidae_cluster71" "Etainia albibimaculella" "BOLAAF6394" "Etainia albibimaculella" 4 1
+"1271" "Etainia sericopeza" "NoMatch" NA "" "" "" "" "Nepticulidae_cluster76" "Etainia sericopeza" "BOLAAC4337" "Etainia sericopeza" 51 1
+"1275" "Drepanidae_Achlya flavicornis" "NoMatch" NA "" "" "" "" "Drepanidae_cluster4" "Drepanidae_Achlya flavicornis" "BOLAAD6559" "Achlya flavicornis" 21 1
+"1296" "Pseudoips prasinana" "NoMatch" NA "" "" "" "" "Nolidae_cluster8" "Pseudoips prasinana" "BOLAAB8807" "Pseudoips prasinana" 60 0.952380952380952
+"1299" "Batrachedra confusella" "NoMatch" NA "" "" "" "" "Batrachedridae_cluster3" "Batrachedra confusella" "BOLAAF0077" "Batrachedra confusella" 43 0.811320754716981
+"1325" "Dioryctria mutatella" "NoMatch" NA "" "" "" "" "Pyralidae_cluster9" "Dioryctria mutatella" "BOLAAB6958" "Dioryctria simplicella" 28 0.777777777777778
+"1335" "Plodia interpunctella" "Exact" 215373 "Plodia interpunctella" "(Hübner, 1813)" "Tinea interpunctella Hübner, 1813; fikonmott" "Tillfällig förekomst (alt. kvarstående)" "Pyralidae_cluster21" "Plodia interpunctella" "BOLAAB2462" "Plodia interpunctella" 77 0.855555555555556
+"1350" "Dyseriocrania subpurpurella" "NeedsManualSelection" NA "Välj ett av 2 matchande taxa; Art: Dyseriocrania subpurpurella (Haworth, 1828) [213783]; Art: Dyseriocrania subpurpurella (Haworth, 1828), ekpurpurmal [232924]" "" "" "" "Eriocraniidae_cluster2" "Dyseriocrania subpurpurella" "BOLAAB3765" "Dyseriocrania subpurpurella" 25 0.675675675675676
+"1377" "Epermenia chaerophyllellus" "NoMatch" NA "" "" "" "" "Epermeniidae_cluster1" "Epermenia chaerophyllellus" "BOLAAC9729" "Epermenia chaerophyllella" 36 1
+"1390" "Prays curtisella" "NoMatch" NA "" "" "" "" "Praydidae_cluster1" "unresolved.Prays" "unresolved.Prays" "" 0 0
+"1392" "Bedellia somnulentella" "Exact" 214225 "Bedellia somnulentella" "(Zeller, 1847)" "Lyonetia somnulentella Zeller, 1847" "Påträffad, okänt om reproducerande" "Bedelliidae_cluster1" "Bedellia somnulentella" "BOLAAI7774" "Bedellia somnulentella" 54 0.771428571428571
