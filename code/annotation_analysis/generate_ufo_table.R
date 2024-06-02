@@ -89,5 +89,5 @@ for (i in 1:nrow(unidentified)) {
 }
 
 # Write resulting table
-write.table(unidentified, "../output_tables/unidentified.tsv")
+write.table(unidentified, "../../output_tables/unidentified.tsv")
 

@@ -4,7 +4,7 @@
 # on the interpretation for each cluster.
 
 # Get basic information from bold_probs.tsv
-D <- read.table("../output_tables/bold_probs.tsv")
+D <- read.table("../../output_tables/bold_probs.tsv")
 res <- D[D$SE_occurrence=="Bofast och reproducerande" & D$dyntaxa_match=="Exact",c("cluster","dyntaxa_name")]
 
 # Add information from the manual analysis of remaining bold_probs clusters
@@ -152,5 +152,5 @@ res$gbif_name <- E$species
 # Fix a synonym that is not resolved correctly by the GBIF name resolver without author info
 res$gbif_name[which(res$dyntaxa_name=="Swammerdamia caesiella")] <- "Swammerdamia heroldella"
 
-write.table(res, "../output_tables/summary_manual_dyntaxa_annotations.tsv")
+write.table(res, "../../output_tables/summary_manual_dyntaxa_annotations.tsv")
 

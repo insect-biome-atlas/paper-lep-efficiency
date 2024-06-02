@@ -89,5 +89,5 @@ for (i in 1:nrow(family_x)) {
 }
 
 # Write resulting table
-write.table(family_x, "../output_tables/family_x.tsv")
+write.table(family_x, "../../output_tables/family_x.tsv")
 

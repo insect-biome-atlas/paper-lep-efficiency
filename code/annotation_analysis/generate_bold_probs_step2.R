@@ -26,5 +26,5 @@ for (i in 1:nrow(bold_probs)) {
 }
  
 # Write table
-write.table(bold_probs,file="../output_tables/bold_probs.tsv")
+write.table(bold_probs,file="../../output_tables/bold_probs.tsv")
 

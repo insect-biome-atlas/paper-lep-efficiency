@@ -89,5 +89,5 @@ for (i in 1:nrow(unclassified.family)) {
 }
 
 # Write resulting table
-write.table(unclassified.family, "../output_tables/unclassified.family.tsv")
+write.table(unclassified.family, "../../output_tables/unclassified.family.tsv")
 

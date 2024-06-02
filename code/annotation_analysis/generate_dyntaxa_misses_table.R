@@ -62,5 +62,5 @@ for (i in 1:len) {
 }
 
 # Write table
-write.table (dyntaxa_misses, file="../output_tables/dyntaxa_misses.tsv")
+write.table (dyntaxa_misses, file="../../output_tables/dyntaxa_misses.tsv")
 
