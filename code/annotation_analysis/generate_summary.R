@@ -152,5 +152,5 @@ res$gbif_name <- E$species
 # Fix a synonym that is not resolved correctly by the GBIF name resolver without author info
 res$gbif_name[which(res$dyntaxa_name=="Swammerdamia caesiella")] <- "Swammerdamia heroldella"
 
-write.table(res, "../../output_tables/summary_manual_dyntaxa_annotations.tsv")
+write.table(res, "../../output_tables/summary_manual_taxonomic_annotations.tsv")
 
