@@ -73,6 +73,8 @@ pdf(file="../../figs/Fig_S1.pdf")
 boxplot(gbif_lep_occurrences$numberOfOccurrences~gbif_lep_occurrences$label,ylab="Occurrence records",log="y",xlab="")
 dev.off()
 
+print(t.test(log(numberOfOccurrences)~label, data = gbif_lep_occurrences))
+
 
 
 # Plot Fig. S2
@@ -150,13 +152,14 @@ fam_stat$iba_rel_occ <- fam_stat$iba_occurrences / fam_stat$species_count
 fam_stat$gbif_rel_occ <- fam_stat$gbif_occurrences / fam_stat$species_count
 
 # Plot family data
+symbol <- 16
 cat("Plotting Fig. 3A\n")
 pdf(file="../../figs/Fig_3A.pdf")
-plot(fam_stat$gbif_rel_occ~fam_stat$iba_rel_occ,log="xy",xlab="IBA occurrence records per species",ylab="GBIF occurrence records per species")
+plot(fam_stat$gbif_rel_occ~fam_stat$iba_rel_occ,pch=symbol,log="xy",xlab="IBA occurrence records per species",ylab="GBIF occurrence records per species")
 y <- fam_stat[fam_stat$family %in% macros_no_butterflies,]
-points(y$gbif_rel_occ~y$iba_rel_occ,col="blue")
+points(y$gbif_rel_occ~y$iba_rel_occ,pch=symbol,col="blue")
 y <- fam_stat[fam_stat$family %in% butterflies,]
-points(y$gbif_rel_occ~y$iba_rel_occ,col="green")
+points(y$gbif_rel_occ~y$iba_rel_occ,pch=symbol,col="green")
 abline(a=0,b=1)
 dev.off()
 
@@ -165,13 +168,20 @@ lep_clusters$gbif_occurrences <- gbif_species$occurrences[match(lep_clusters$Spe
 sp_stat <- lep_clusters[!is.na(lep_clusters$gbif_occurrences),]
 
 # Plot species data
+symbol <- 20
+f <- 0.8
 cat("Plotting Fig. 3B\n")
 pdf("../../figs/Fig_3B.pdf")
-plot(sp_stat$gbif_occurrences~sp_stat$occurrences,log="xy",xlab="IBA occurrence records",ylab="GBIF occurrence records")
+plot(sp_stat$gbif_occurrences~sp_stat$occurrences,col="white",log="xy",xlab="IBA occurrence records",ylab="GBIF occurrence records")
+y <- sp_stat[sp_stat$Family %in% microleps,]
+points(jitter(y$gbif_occurrences,factor=f)~jitter(y$occurrences,factor=f),pch=symbol,col="black")
 y <- sp_stat[sp_stat$Family %in% macros_no_butterflies,]
-points(y$gbif_occurrences~y$occurrences,col="blue")
+points(jitter(y$gbif_occurrences,factor=f)~jitter(y$occurrences,factor=f),pch=symbol,col="blue")
 y <- sp_stat[sp_stat$Family %in% butterflies,]
-points(y$gbif_occurrences~y$occurrences,col="green")
+points(jitter(y$gbif_occurrences,factor=f)~jitter(y$occurrences,factor=f),pch=symbol,col="green")
 abline(a=0,b=1)
 dev.off()
+
+cat("Pearson correlation coefficient (log(sp_stat$gbif_occurrences),log(sp_stat$occurrences))\n")
+print(cor(log(sp_stat$gbif_occurrences),log(sp_stat$occurrences)))
 
