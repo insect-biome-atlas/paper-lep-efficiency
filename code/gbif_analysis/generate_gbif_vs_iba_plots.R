@@ -1,4 +1,5 @@
 # Script for generating figures 3, S1 and S2
+# Also computes some numbers cited in text
 
 # Define groups of Lepidoptera families
 leps <- c('Adelidae','Alucitidae','Argyresthiidae','Autostichidae','Batrachedridae','Bedelliidae','Blastobasidae','Brahmaeidae','Bucculatricidae','Castniidae','Chimabachidae','Choreutidae','Coleophoridae','Cosmopterigidae','Cossidae','Crambidae','Depressariidae','Douglasiidae','Drepanidae','Dryadaulidae','Elachistidae','Endromidae','Epermeniidae','Erebidae','Eriocraniidae','Ethmiidae','Gelechiidae','Geometridae','Glyphipterigidae','Gracillariidae','Heliodinidae','Heliozelidae','Hepialidae','Hesperiidae','Incurvariidae','Lasiocampidae','Limacodidae','Lycaenidae','Lyonetiidae','Lypusidae','Meessiidae','Micropterigidae','Momphidae','Nepticulidae','Noctuidae','Nolidae','Notodontidae','Nymphalidae','Oecophoridae','Opostegidae','Papilionidae','Parametriotidae','Peleopodidae','Pieridae','Plutellidae','Praydidae','Prodoxidae','Psychidae','Pterophoridae','Pyralidae','Riodinidae','Roeslerstammiidae','Saturniidae','Schreckensteiniidae','Scythrididae','Scythropiidae','Sesiidae','Sphingidae','Stathmopodidae','Tineidae','Tischeriidae','Tortricidae','Urodidae','Yponomeutidae','Ypsolophidae','Zygaenidae')
@@ -164,6 +165,11 @@ abline(a=0,b=1)
 dev.off()
 
 # Get IBA and GBIF data for species into same dataframe
+# Note that we rely on species name matching to remove IBA clusters that are not identified to species
+# We ignore the duplicated species clusters here; they are represented more than one time in the sp_stat file
+# To remove this problem entirely, clusters have to be aggregated in the computation of the occurrence records above
+# Note that there are similar problems with lumped species, which cannot be resolved easily
+# Overall, these data points represent a small fraction of the total number of data points
 lep_clusters$gbif_occurrences <- gbif_species$occurrences[match(lep_clusters$Species_updated,gbif_species$species)]
 sp_stat <- lep_clusters[!is.na(lep_clusters$gbif_occurrences),]
 
@@ -184,4 +190,10 @@ dev.off()
 
 cat("Pearson correlation coefficient (log(sp_stat$gbif_occurrences),log(sp_stat$occurrences))\n")
 print(cor(log(sp_stat$gbif_occurrences),log(sp_stat$occurrences)))
+
+# Compute number of recorded species and unique species (this is ignorant to whether the species represent new records)
+cat("Total number of shared and unique species\n")
+cat("Number of lep species recorded in GBIF in 2019:", length(unique(gbif_species$species[grepl(" ",gbif_species$species) & gbif_species$family!="Gerridae"])),"\n")
+cat("Number of lep species recorded in IBA in 2019:", length(unique(lep_clusters$Species_updated[grepl(" ",lep_clusters$Species_updated)])), "\n")
+cat("Number of shared lep species recorded in 2019:", length(unique(lep_clusters$Species_updated[lep_clusters$Species_updated %in% gbif_species$species])),"\n")
 
