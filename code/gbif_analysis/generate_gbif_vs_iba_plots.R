@@ -171,7 +171,7 @@ f3A <-
         axis.title.x = element_text(size = 14),
         axis.title.y = element_text(size = 14))
 f3A
-ggsave(filename = "./../../figs/Fig_3A_EIE.pdf", device="pdf", width = 6, height = 5.5, f3A)
+ggsave(filename = "./../../figs/Fig_3A.pdf", device="pdf", width = 6, height = 5.5, f3A)
 
 # Get IBA and GBIF data for species into same dataframe
 # Note that we rely on species name matching to remove IBA clusters that are not identified to species
@@ -203,7 +203,7 @@ f3B <-
         axis.title.x = element_text(size = 14),
         axis.title.y = element_text(size = 14))
 
-ggsave(filename = "./../../figs/Fig_3B_EIE.pdf", device="pdf", width = 6, height = 5.5, f3B)
+ggsave(filename = "./../../figs/Fig_3B.pdf", device="pdf", width = 6, height = 5.5, f3B)
 
 cat("Pearson correlation coefficient (log(sp_stat$gbif_occurrences),log(sp_stat$occurrences))\n")
 print(cor(log(sp_stat$gbif_occurrences),log(sp_stat$occurrences)))
