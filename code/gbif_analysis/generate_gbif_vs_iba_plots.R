@@ -152,17 +152,26 @@ fam_stat$species_count <- fam_diversity$species_count[match(fam_stat$family,fam_
 fam_stat$iba_rel_occ <- fam_stat$iba_occurrences / fam_stat$species_count
 fam_stat$gbif_rel_occ <- fam_stat$gbif_occurrences / fam_stat$species_count
 
-# Plot family data
-symbol <- 16
-cat("Plotting Fig. 3A\n")
-pdf(file="../../figs/Fig_3A.pdf")
-plot(fam_stat$gbif_rel_occ~fam_stat$iba_rel_occ,pch=symbol,log="xy",xlab="IBA occurrence records per species",ylab="GBIF occurrence records per species")
-y <- fam_stat[fam_stat$family %in% macros_no_butterflies,]
-points(y$gbif_rel_occ~y$iba_rel_occ,pch=symbol,col="blue")
-y <- fam_stat[fam_stat$family %in% butterflies,]
-points(y$gbif_rel_occ~y$iba_rel_occ,pch=symbol,col="green")
-abline(a=0,b=1)
-dev.off()
+# Add column summarizing if this is a microlep, butterfly of other macrolep.
+fam_stat$group <- "micros"
+fam_stat[fam_stat$family %in% macros_no_butterflies, "group"] <- "other_macros"
+fam_stat[fam_stat$family %in% butterflies, "group"] <- "butterflies"
+
+f3A <-
+  ggplot(fam_stat, aes(x=iba_rel_occ, y=gbif_rel_occ, color=group)) + 
+  geom_point(size=3) + 
+  geom_abline() +
+  scale_x_continuous(trans='log2', breaks = c(0.2,0.5,1,2,5,10, 20,50, 100)) +
+  scale_y_continuous(trans='log2', breaks = c(2,5,10,20,50,100,200,500, 1000)) +
+  scale_color_manual(values=c( "tomato2", "#999999","dodgerblue3")) +
+  labs(y = "GBIF occurrence records per species [log]", x="IBA occurrence records per species [log]") +
+  theme_bw() +
+  theme(legend.position="none", axis.text.x = element_text(size = 14),
+        axis.text.y = element_text(size = 14),  
+        axis.title.x = element_text(size = 14),
+        axis.title.y = element_text(size = 14))
+f3A
+ggsave(filename = "./../../figs/Fig_3A_EIE.pdf", device="pdf", width = 6, height = 5.5, f3A)
 
 # Get IBA and GBIF data for species into same dataframe
 # Note that we rely on species name matching to remove IBA clusters that are not identified to species
@@ -173,20 +182,28 @@ dev.off()
 lep_clusters$gbif_occurrences <- gbif_species$occurrences[match(lep_clusters$Species_updated,gbif_species$species)]
 sp_stat <- lep_clusters[!is.na(lep_clusters$gbif_occurrences),]
 
-# Plot species data
-symbol <- 20
-f <- 0.8
-cat("Plotting Fig. 3B\n")
-pdf("../../figs/Fig_3B.pdf")
-plot(sp_stat$gbif_occurrences~sp_stat$occurrences,col="white",log="xy",xlab="IBA occurrence records",ylab="GBIF occurrence records")
-y <- sp_stat[sp_stat$Family %in% microleps,]
-points(jitter(y$gbif_occurrences,factor=f)~jitter(y$occurrences,factor=f),pch=symbol,col="black")
-y <- sp_stat[sp_stat$Family %in% macros_no_butterflies,]
-points(jitter(y$gbif_occurrences,factor=f)~jitter(y$occurrences,factor=f),pch=symbol,col="blue")
-y <- sp_stat[sp_stat$Family %in% butterflies,]
-points(jitter(y$gbif_occurrences,factor=f)~jitter(y$occurrences,factor=f),pch=symbol,col="green")
-abline(a=0,b=1)
-dev.off()
+# Add column summarizing if this is a microlep, butterfly of other macrolep.
+sp_stat$group <- "micros"
+sp_stat[sp_stat$Family %in% macros_no_butterflies, "group"] <- "other_macros"
+sp_stat[sp_stat$Family %in% butterflies, "group"] <- "butterflies"
+
+f3B <-
+  ggplot(sp_stat, aes(x=occurrences, y=gbif_occurrences, color=group)) + 
+  geom_point(position = position_jitterdodge(0.3, dodge.width = .1), size=2) + 
+  geom_abline() +
+  scale_x_continuous(trans='log2',
+                     breaks = c(1,5,10,50,100,500, 1000)) +
+  scale_y_continuous(trans='log2',
+                     breaks = c(1,10,100,1000,10000 )) +
+  scale_color_manual(values=c( "tomato2", "#999999","dodgerblue3")) +
+  labs(y = "GBIF occurrence records [log]", x="IBA occurrence records [log]") +
+  theme_bw() +
+  theme(legend.position="none", axis.text.x = element_text(size = 14),
+        axis.text.y = element_text(size = 14),  
+        axis.title.x = element_text(size = 14),
+        axis.title.y = element_text(size = 14))
+
+ggsave(filename = "./../../figs/Fig_3B_EIE.pdf", device="pdf", width = 6, height = 5.5, f3B)
 
 cat("Pearson correlation coefficient (log(sp_stat$gbif_occurrences),log(sp_stat$occurrences))\n")
 print(cor(log(sp_stat$gbif_occurrences),log(sp_stat$occurrences)))

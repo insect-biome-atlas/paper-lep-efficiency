@@ -32,14 +32,12 @@ library("dggridR")
 # How many Lepidoptera clusters did the high-throughput survey detect?
 ```{r IBA_plus_manual_GBIF, echo=F}
 ### Read in IBA cluster taxonomy file - all clusters detected in metabarcoding and their taxonomic assignment
-taxonomy <- fread("/Users/elzbiwas/Desktop/IBA_data_Apr2023/cleaned_nochimera_cluster_taxonomy.tsv", header = T)
-### Filter to keep only those that represent order Lepidoptera.
-Leps_taxonomy <- taxonomy[grepl(pattern="Lepidoptera", taxonomy$Order)]
+Leps_taxonomy<-read.csv("./../../data/Lepidoptera_clusters_taxonomy.csv")
 ### Change the name of the column 1
 names(Leps_taxonomy)[names(Leps_taxonomy) == "V1"] <- "cluster"
 
 ### Load in the file with manual annotations (done by Fredrik) - adding species name if there was BOLD bin but no consensus OR correcting spelling to align with Artdatabanken nomenclature etc
-Man_annotation <- read.delim("/Users/elzbiwas/Desktop/IBA_efficiency/git/iba-efficiency-lep/output_tables/summary_manual_dyntaxa_annotations.csv", sep=";", header = T)
+Man_annotation <- read.delim("./../../output_tables/summary_manual_taxonomic_annotations.tsv", sep=" ", header = T)
 
 ### Merge cluster taxonomy file and the manual annotation file based on matching values in the "cluster" column
 Leps_taxonomy_complete <- merge(Leps_taxonomy, Man_annotation, by = "cluster", all.x = TRUE)
@@ -59,35 +57,12 @@ paste("We've gotten", length(Clusts_species$Species.name.DynTaxa), "species assi
 #length(unique(Leps_taxonomy_complete$Species.name.DynTaxa))
 paste("And those", length(Leps_taxonomy_complete$cluster), "clusters contained", length(unique(Leps_taxonomy_complete$Species.name.DynTaxa)), "unique species names.")
 ```
-```{r IBA_Lep_counts, echo=F}
-#Getting the counts table for lepidoptera samples:
-counts <- fread("/Users/elzbiwas/Desktop/IBA_data_Apr2023/cleaned_nochimera_cluster_counts.tsv", header = T)
-
-# Filter rows based names
-Lep_culsters <- Leps_taxonomy_complete$cluster
-Lep_count <- counts[counts$cluster %in% Lep_culsters, ]
-Lep_counts <- as.data.frame(Lep_count)
-
-# Step 1: Set the first column as row names
-rownames(Lep_counts) <- Lep_counts$cluster
-Lep_counts <- Lep_counts[,-1]
-# Step 2: Exclude columns that sum up to zero
-df_filtered <- Lep_counts[, colSums(Lep_count[, -1]) != 0]
-# Step 3: Exclude positive and negative controls (if any)
-temp <- t(df_filtered)
-temp <- temp[!grepl(pattern = "pos", row.names(temp)), ]
-temp <- temp[!grepl(pattern = "neg", row.names(temp)), ]
-df_filtered <- t(temp)
-
-# Step 4: Save the remaining columns in a CSV file
-#write.csv(df_filtered, "Lep_cleaned_nochimera_cluster_counts.csv")
-```
 # Swedish lepidopteran fauna
 ## Total number of species known to be in Sweden?
 We consult DynTaxa.se portal to get the number of species living in Sweden.
 ```{r Dyntaxa, echo=F}
 ### Load in data downloaded from dyntaxa.se
-dynTaxa<- read.delim("../../git/iba-efficiency-lep/data/DynTaxa_Lepidoptera_2024-03-19_19.04.csv", sep = ";", header = T)
+dynTaxa<- read.delim("./../../data/DynTaxa_Lepidoptera_2024-03-19_19.04.csv", sep = ";", header = T)
 
 ### Dyntaxa has species with different status:
 #unique(dynTaxa$Svensk.förekomst)
@@ -115,7 +90,7 @@ paste("Swedish fauna comprises", length(unique(dynTaxa_cat2$Familj)), "lepidopte
 ## How many micro- and macro-lepidopteran families and how many species in each group?
 ```{r Divide_micro_macro, echo=F}
 ### Get manual assignment of each family to micro- and macro-lepidoptera based on info in DYNTAXA
-MacroMicro <- read.delim("./Lep_families_micro_macro.csv", sep = ";", header = T)
+MacroMicro <- read.delim("./../../data/Lep_families_micro_macro.csv", sep = ";", header = T)
 ### add this info to the Dyntaxa dataframe
 dynTaxa_cat2$Family <- dynTaxa_cat2$Familj
 dynTaxa_cat2 <- merge(dynTaxa_cat2, MacroMicro, by="Family")
@@ -155,7 +130,7 @@ Details of how it was performed are in ../dyntaxa_searches
 ## How many of the Swedish species (n=2990) did we detect in IBA data?
 ```{r Dyntaxa2, echo=F}
 ### Load in results of matching from dyntaxa.se
-Matching <- read.delim("Dyntaxa_lep_spp_detected_plus_hidden_plus_manually.csv", sep = ";") # This includes entries manually supervised/corrected/matched *(by Fredrik)
+Matching <- read.delim("./../../data/Dyntaxa_lep_spp_detected_plus_hidden_plus_manually.csv", sep = ";") # This includes entries manually supervised/corrected/matched *(by Fredrik)
 
 #length(unique(Matching$Scientific.name))
 #length(Matching$CLUSTER_ID)
@@ -171,7 +146,7 @@ Matching_with_NoMatch <- rbind(Matching, data.frame(CLUSTER_ID = vec_missing_clu
 clusters_NoMatch <- subset(Matching_with_NoMatch, Matching_with_NoMatch$Matching.status == "NoMatch")
 Ej_patraffad <- subset(Matching_with_NoMatch, Matching_with_NoMatch$Swedish.occurrence == "Ej påträffad")
 
-### LIst of all IBA clusters that did not have a match.
+### List of all IBA clusters that did not have a match.
 cluster_NoMatch <- rbind(clusters_NoMatch, Ej_patraffad)
 
 ### Subset Dyntaxa matching table to leave only those Clusters that actually have gotten a match to Swedish fauna.
@@ -206,7 +181,7 @@ p <- subset(dynTaxa_cat2, dynTaxa_cat2$Present_in_IBA == "present")
 
 paste("Metabarcoding survey succesfully detected", length(unique(p$Vetenskapligt.namn)), "known Swedish species. The ramaining", length(unique(np$Vetenskapligt.namn)), "were not found by high-throughput surveying.")
 ### save it in CSV
-#write.csv(dynTaxa_cat2, "Swedish_Lep_Fauna_metabarcoding_detection.csv")
+write.csv(dynTaxa_cat2, "./../../output_tables/Swedish_Lep_Fauna_metabarcoding_detection.csv")
 ```
 ## How many clusters had no match in Swedish fauna?
 ```{r Dyntaxa3, echo=F}
@@ -271,8 +246,7 @@ pr<- ggplot(counts_df2, aes(x = "", y = Count, fill = Category)) +
   geom_text(aes(label = Count), position = position_stack(vjust = 0.5)) +
   theme(legend.title = element_blank())
 pr
-#ggsave(filename = "./output/Clusters_not_matching_swedish_species_col2.pdf", device="pdf", width = 5.5, height = 6, pr)
-#ggsave(filename = "./output/Clusters_not_matching_swedish_species_col2.jpeg", device="jpeg", width = 6, height = 8, pr)
+ggsave(filename = "./../../figs/Fig2A.pdf", device="pdf", width = 5.5, height = 6, pr)
 ```
 
 ## How many species of each Family did we find in metabarcoding data?
@@ -289,8 +263,6 @@ fam<- ggplot(dynTax_META, aes(x = Familj, fill = Present_in_IBA)) +
         legend.position = "bottom") +
   theme(legend.title = element_blank())
 fam
-#ggsave(filename = "./output/Counts_per_family.pdf", device="pdf", width = 12, height = 5, fam)
-#ggsave(filename = "./output/Counts_per_family.jpeg", device="jpeg", width = 12, height = 5, fam)
 ```
 
 ## How many species of each Family did we find in metabarcoding when looking at MICRO and MACRO Lepidoptera? - (Fig. 2 B and C)
@@ -312,8 +284,7 @@ micro4 <- ggplot(micros, aes(x = Familj, fill = Present_in_IBA)) +
         legend.position = "none") +
   theme(legend.title = element_blank())
 micro4
-#ggsave(filename = "./output/Microleps_Counts_per_family_B&W.pdf", device="pdf", width =7, height = 4, micro4)
-#ggsave(filename = "./output/Microleps_Counts_per_family_B&W.jpeg", device="jpeg", width = 7, height = 4, micro4)
+ggsave(filename = "./../../figs/Fig2C.pdf", device="pdf", width =7, height = 4, micro4)
 ```
 
 ```{r Barplot3macro, echo=F}
@@ -330,8 +301,7 @@ macro4 <- ggplot(macros, aes(x = Familj, fill = Present_in_IBA)) +
         legend.position = "none") +
   theme(legend.title = element_blank())
 macro4
-#ggsave(filename = "./output/MACROleps_Counts_per_family_B&W.pdf", device="pdf", width =5, height = 3, macro4)
-#ggsave(filename = "./output/MACROleps_Counts_per_family_B&W.jpeg", device="jpeg", width = 5, height = 3, macro4)
+ggsave(filename = "./../../figs/Fig2B.pdf", device="pdf", width =5, height = 3, macro4)
 ```
 
 ## Percentages of Swedish fauna recovered by metabarcoding by family and per category) - (Tab.S1)
