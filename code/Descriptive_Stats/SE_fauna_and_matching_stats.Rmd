@@ -4,7 +4,7 @@ output: html_document
 date: "2024-03-13"
 ---
 
-This document is one of the R scripts accompanying paper "High-throughput biodiversity surveying  sheds new light on the brightest of insect taxa" - Iwaszkiewicz-Eggecrecht et al. 2024
+This document is one of the R scripts accompanying paper "High-throughput biodiversity surveying  sheds new light on the brightest of insect taxa" - Iwaszkiewicz-Eggebrecht et al. 2024
 
 It contains:
 - Basic stats summarizing metabarcoding results
@@ -51,7 +51,7 @@ paste("High-throughput survey found", length(Leps_taxonomy_complete$cluster), "L
 ```
 # How many Lepidoptera clusters obtained a full taxonomic assignment down to species level?
 ```{r tax_assignemnt, echo=F}
-Clusts_species <- Leps_taxonomy_complete[grepl(pattern = " ", Leps_taxonomy_complete$Species.name.DynTaxa)]
+Clusts_species <- Leps_taxonomy_complete[grepl(pattern = " ", Leps_taxonomy_complete$Species.name.DynTaxa),]
 paste("We've gotten", length(Clusts_species$Species.name.DynTaxa), "species assignments.")
 
 #length(unique(Leps_taxonomy_complete$Species.name.DynTaxa))
