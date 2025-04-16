@@ -1,6 +1,14 @@
 # paper-lep-efficiency
 
-Repository with data and code for the ms evaluating IBA efficiency using Swedish Lepidoptera
+Repository with data and code for the paper evaluating IBA efficiency using Swedish Lepidoptera, titled
+"High-throughput biodiversity surveying sheds new light on the brightest of insect taxa".
+
+Authors: Ela Iwaszkiewicz-Eggebrecht, Robert M. Goodsell, Bengt-Åke Bengsson, Marko Mutanen, Mårten Klinth, Laura van Dijk, Piotr Lukasik, Andreia Miraldo, Anders F. Andresson, Ayco J. M. Tack, Tomas Roslin, Fredrik Ronquist
+
+Published in Proceedings of the Royal Society B.
+DOI: 10.1098/rspb.2024-2974
+
+Correspondence: ela.iwaszkiewicz@nrm.se
 
 ##Folder structure
 
