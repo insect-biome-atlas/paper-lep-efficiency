@@ -6,7 +6,7 @@ Repository with data and code for the paper evaluating IBA efficiency using Swed
 Authors: Ela Iwaszkiewicz-Eggebrecht, Robert M. Goodsell, Bengt-Åke Bengsson, Marko Mutanen, Mårten Klinth, Laura van Dijk, Piotr Lukasik, Andreia Miraldo, Anders F. Andresson, Ayco J. M. Tack, Tomas Roslin, Fredrik Ronquist
 
 Published in Proceedings of the Royal Society B.
-DOI: 10.1098/rspb.2024-2974
+DOI: https://doi.org/10.1098/rspb.2024-2974
 
 Correspondence: ela.iwaszkiewicz@nrm.se
 
